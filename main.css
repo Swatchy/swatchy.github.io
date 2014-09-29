@@ -433,7 +433,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     padding-top: 99px;
     color: #fff;
-    /*text-shadow: 0px 0px 10px #eaeaea;*/
+    text-shadow: 0px 1px 3px #BF96CC;
 }
 
 a {
