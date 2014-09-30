@@ -447,6 +447,7 @@ a {
 
 .info .about {
     float: left;
+    margin-top: 10px;
 }
     .about .company {
         margin-top: 27px;
@@ -457,7 +458,7 @@ a {
 
     .about .title {
         margin-top: 0px;
-        font-size: 28px;
+        font-size: 24px;
         margin-bottom: 20px;
     }
 
