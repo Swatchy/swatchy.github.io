@@ -523,6 +523,7 @@ a {
  .info .social > div {
     float:left!important;
     width: 90px!important;
+    clear: none!important;
  }
  
 #___plusone_0 {
