@@ -519,6 +519,11 @@ a {
  .info .social {
      margin-top: 70px;
  }
+ 
+ .info .social > div {
+    float:left!important;
+ }
+ 
 .clr {
     clear: both;
 }
