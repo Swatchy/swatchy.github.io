@@ -48,8 +48,9 @@
                 </table>
             </section>
             <section class="social">
-                <!-- Поместите этот тег туда, где должна отображаться кнопка +1. -->
-                <div class="g-plusone" data-size="medium"></div>
+<!-- Поместите этот тег туда, где должна отображаться кнопка +1. -->
+<div class="g-plusone" data-size="medium" data-href="http://swatchy.github.io/"></div>
+
                 <div><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://swatchy.github.io" data-text="folders for your swatches in Photoshop" data-via="konstantin" data-hashtags="swatchy">Tweet</a></div>
                 <div class="fb-like" data-href="http://swatchy.github.io/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
             </section>
@@ -101,9 +102,13 @@
         $("body").append(preload);*/
     </script>
 </body>
-<!-- Вставьте этот тег в заголовке страницы или непосредственно перед закрывающим тегом основной части. -->
-<script src="https://apis.google.com/js/platform.js" async defer>
-  {lang: 'en'}
+<!-- Поместите этот тег за последним тегом виджета кнопка +1. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
 </script>
 
 <div id="fb-root"></div>
