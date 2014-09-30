@@ -522,6 +522,7 @@ a {
  
  .info .social > div {
     float:left!important;
+    margin-right: 5px;
  }
  
 .clr {
