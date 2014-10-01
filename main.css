@@ -447,7 +447,7 @@ a {
 
 .info .about {
     float: left;
-    margin-top: 10px;
+    margin-top: 20px;
 }
     .about .company {
         margin-top: 27px;
@@ -467,10 +467,10 @@ a {
         border-radius: 8px;
         background-color: rgb(31, 196, 31);
         width: 288px;
-        height: 48px;
-        line-height: 48px;
+        height: 58px;
+        line-height: 58px;
         border: none;
-        font-size: 22px;
+        font-size: 28px;
         text-decoration: none;
         color: #fff;
         text-align: center;
