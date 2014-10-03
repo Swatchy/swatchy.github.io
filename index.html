@@ -87,7 +87,7 @@
     </div>
     <script>
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', (navigator.userAgent.toLowerCase().indexOf('firefox') > -1?'video.mov':'video.mp4'), true);
+    xhr.open('GET', (navigator.userAgent.toLowerCase().indexOf('firefox') <= -1?'video.mov':'video.mp4'), true);
     xhr.responseType = 'blob';
 
     xhr.onreadystatechange = function(e) {
