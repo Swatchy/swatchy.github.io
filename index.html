@@ -87,12 +87,12 @@
     </div>
     <script>
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'video.mp4'), true);
+    xhr.open('GET', 'video.mp4', true);
     xhr.responseType = 'blob';
 
     xhr.onreadystatechange = function(e) {
         if (this.readyState == 4 && this.status == 200) {
-            $("#vid")[0].src=URL.createObjectURL(new Blob([this.response]), {type: "video/mp4"});
+            $("#vid")[0].src=URL.createObjectURL(new Blob([this.response], {type: "video/mp4"}));
         }
     };
     
