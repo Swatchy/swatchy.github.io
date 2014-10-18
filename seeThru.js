@@ -266,9 +266,11 @@
 			display.putImageData(image, 0, 0, 0, 0, dimensions.width, dimensions.height);
 
 			if (recurse){
-				interval = requestAnimationFrame(function(){
-					drawFrame(true);
-				});
+				setTimeout(function() {
+					interval = requestAnimationFrame(function(){
+						drawFrame(true);
+					});
+				}, 50);
 			}
 
 		}
